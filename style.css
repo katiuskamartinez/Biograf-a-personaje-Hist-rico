@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px; 
+}
+.header h2{
+    text-align: center;
+    margin-top: 5px; 
+}
+.header img{
+    size: 20%;
+    margin: auto;
+}
+.legado h2{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.logros h2{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.parrafo-uno, .parrafo-dos, .parrafo-tres{
+    text-align: justify;
+    padding: 10px 20px;
+    word-spacing: normal;
+}
+.container{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.full{
+    position: relative;
+    right: 50%;
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+}
+.full img{
+    max-width: 100%;
+}
+.article h2{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.article p{
+    text-align: justify;
+    word-spacing: normal;
+}
+.footer{
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+}
+.footer small{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 40px;
+}
+/*  ///////botton de scroll///////*/
+.btn{
+    text-align: end;
+}
+.scroll-top-btn{
+    margin-right: 10px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #87431d;
+    color: #1b262c;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    transition: all 0.3s ease-out;
+}
+.scroll-top-btn:hover{
+    background-color: #c87941;
+    color: #1b262c; 
+}
+@media all and (max-width:400px){
+    .scroll-top-btn{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem; 
+    }
+}
